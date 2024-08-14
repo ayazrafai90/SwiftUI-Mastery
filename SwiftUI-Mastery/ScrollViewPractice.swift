@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ScrollViewPractice: View {
+    
+    let size = (UIScreen.main.bounds.size.width - 32) / 3
     var body: some View {
         ScrollView(.vertical, showsIndicators: false) {
             LazyVStack {
@@ -17,14 +19,14 @@ struct ScrollViewPractice: View {
                             ForEach(0..<11) { indexJ in
                                 Rectangle()
                                     .fill(indexI % 2 == 0 ? (indexJ % 2 == 0 ? .customPink : .customSky) : (indexJ % 2 == 0 ? .customSky : .customPink))
-                                    .frame(width: 100, height: 100)
+                                    .frame(width: size, height: size)
                                     .cornerRadius(12)
                             }
                         }
                     }
                 }
             }
-        }.padding()
+        }.padding(.all, 8)
     }
 }
 
