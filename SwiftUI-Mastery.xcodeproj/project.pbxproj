@@ -22,6 +22,7 @@
 		D7E12F302C6CE24200B132F5 /* Background_AND_OverlayPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E12F2F2C6CE24200B132F5 /* Background_AND_OverlayPractice.swift */; };
 		D7E12F322C6CE94200B132F5 /* StacksPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E12F312C6CE94200B132F5 /* StacksPractice.swift */; };
 		D7E12F342C6CF9D600B132F5 /* Padding_SpacerPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E12F332C6CF9D600B132F5 /* Padding_SpacerPractice.swift */; };
+		D7E12F372C6D0BA800B132F5 /* InitializationPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E12F352C6D088D00B132F5 /* InitializationPractice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		D7E12F2F2C6CE24200B132F5 /* Background_AND_OverlayPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background_AND_OverlayPractice.swift; sourceTree = "<group>"; };
 		D7E12F312C6CE94200B132F5 /* StacksPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksPractice.swift; sourceTree = "<group>"; };
 		D7E12F332C6CF9D600B132F5 /* Padding_SpacerPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Padding_SpacerPractice.swift; sourceTree = "<group>"; };
+		D7E12F352C6D088D00B132F5 /* InitializationPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializationPractice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				D7E12F2F2C6CE24200B132F5 /* Background_AND_OverlayPractice.swift */,
 				D7E12F312C6CE94200B132F5 /* StacksPractice.swift */,
 				D7E12F332C6CF9D600B132F5 /* Padding_SpacerPractice.swift */,
+				D7E12F352C6D088D00B132F5 /* InitializationPractice.swift */,
 				D7163D3D2C6BB63C002FFC77 /* Assets.xcassets */,
 				D7163D4D2C6BC59C002FFC77 /* Colors.xcassets */,
 				D7163D3F2C6BB63C002FFC77 /* Preview Content */,
@@ -180,6 +183,7 @@
 				D7E12F342C6CF9D600B132F5 /* Padding_SpacerPractice.swift in Sources */,
 				D7B14E632C6CCF12009ADE46 /* ImagePractice.swift in Sources */,
 				D7163D522C6BCB9D002FFC77 /* IconsPractice.swift in Sources */,
+				D7E12F372C6D0BA800B132F5 /* InitializationPractice.swift in Sources */,
 				D7163D4C2C6BC4B6002FFC77 /* ColorsPractice.swift in Sources */,
 				D7163D482C6BBD0C002FFC77 /* TextPractice.swift in Sources */,
 				D7E12F322C6CE94200B132F5 /* StacksPractice.swift in Sources */,
