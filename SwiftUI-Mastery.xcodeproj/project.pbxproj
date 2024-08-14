@@ -19,6 +19,7 @@
 		D7163D522C6BCB9D002FFC77 /* IconsPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7163D512C6BCB9D002FFC77 /* IconsPractice.swift */; };
 		D7B14E632C6CCF12009ADE46 /* ImagePractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B14E622C6CCF12009ADE46 /* ImagePractice.swift */; };
 		D7B14E652C6CD311009ADE46 /* FramePractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B14E642C6CD311009ADE46 /* FramePractice.swift */; };
+		D7E12F302C6CE24200B132F5 /* Background_AND_OverlayPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E12F2F2C6CE24200B132F5 /* Background_AND_OverlayPractice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		D7163D512C6BCB9D002FFC77 /* IconsPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsPractice.swift; sourceTree = "<group>"; };
 		D7B14E622C6CCF12009ADE46 /* ImagePractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePractice.swift; sourceTree = "<group>"; };
 		D7B14E642C6CD311009ADE46 /* FramePractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramePractice.swift; sourceTree = "<group>"; };
+		D7E12F2F2C6CE24200B132F5 /* Background_AND_OverlayPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background_AND_OverlayPractice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				D7163D512C6BCB9D002FFC77 /* IconsPractice.swift */,
 				D7B14E622C6CCF12009ADE46 /* ImagePractice.swift */,
 				D7B14E642C6CD311009ADE46 /* FramePractice.swift */,
+				D7E12F2F2C6CE24200B132F5 /* Background_AND_OverlayPractice.swift */,
 				D7163D3D2C6BB63C002FFC77 /* Assets.xcassets */,
 				D7163D4D2C6BC59C002FFC77 /* Colors.xcassets */,
 				D7163D3F2C6BB63C002FFC77 /* Preview Content */,
@@ -163,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7163D502C6BC702002FFC77 /* GradientPractice.swift in Sources */,
+				D7E12F302C6CE24200B132F5 /* Background_AND_OverlayPractice.swift in Sources */,
 				D7B14E652C6CD311009ADE46 /* FramePractice.swift in Sources */,
 				D7163D3C2C6BB63B002FFC77 /* ContentView.swift in Sources */,
 				D7163D3A2C6BB63B002FFC77 /* SwiftUI_MasteryApp.swift in Sources */,
