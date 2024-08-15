@@ -19,3 +19,6 @@ This repository is designed for self-learning and to showcase my SwiftUI experti
 ## Get in Touch
 
 Feel free to explore the code, and if you're interested in discussing SwiftUI or potential projects, [contact me](mailto:ayazrafai90@gmail.com).
+
+## Highlights
+![SwiftUI-Mastery](https://github.com/user-attachments/assets/43ce8b89-fc59-4451-b063-54601eded989)
