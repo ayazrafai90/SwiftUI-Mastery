@@ -26,6 +26,7 @@
 		D78169842C6F8BD0008924F1 /* ExtractedFunctionsPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78169832C6F8BD0008924F1 /* ExtractedFunctionsPractice.swift */; };
 		D78169862C6F90F6008924F1 /* ExtractSubViewsPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78169852C6F90F6008924F1 /* ExtractSubViewsPractice.swift */; };
 		D78169882C6F96C9008924F1 /* BindingPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78169872C6F96C9008924F1 /* BindingPractice.swift */; };
+		D781698A2C6F9AB4008924F1 /* ConditionalPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78169892C6F9AB4008924F1 /* ConditionalPractice.swift */; };
 		D7B14E632C6CCF12009ADE46 /* ImagePractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B14E622C6CCF12009ADE46 /* ImagePractice.swift */; };
 		D7B14E652C6CD311009ADE46 /* FramePractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B14E642C6CD311009ADE46 /* FramePractice.swift */; };
 		D7E12F302C6CE24200B132F5 /* Background_AND_OverlayPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E12F2F2C6CE24200B132F5 /* Background_AND_OverlayPractice.swift */; };
@@ -55,6 +56,7 @@
 		D78169832C6F8BD0008924F1 /* ExtractedFunctionsPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedFunctionsPractice.swift; sourceTree = "<group>"; };
 		D78169852C6F90F6008924F1 /* ExtractSubViewsPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractSubViewsPractice.swift; sourceTree = "<group>"; };
 		D78169872C6F96C9008924F1 /* BindingPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingPractice.swift; sourceTree = "<group>"; };
+		D78169892C6F9AB4008924F1 /* ConditionalPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalPractice.swift; sourceTree = "<group>"; };
 		D7B14E622C6CCF12009ADE46 /* ImagePractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePractice.swift; sourceTree = "<group>"; };
 		D7B14E642C6CD311009ADE46 /* FramePractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramePractice.swift; sourceTree = "<group>"; };
 		D7E12F2F2C6CE24200B132F5 /* Background_AND_OverlayPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background_AND_OverlayPractice.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				D78169832C6F8BD0008924F1 /* ExtractedFunctionsPractice.swift */,
 				D78169852C6F90F6008924F1 /* ExtractSubViewsPractice.swift */,
 				D78169872C6F96C9008924F1 /* BindingPractice.swift */,
+				D78169892C6F9AB4008924F1 /* ConditionalPractice.swift */,
 				D7163D3D2C6BB63C002FFC77 /* Assets.xcassets */,
 				D7163D4D2C6BC59C002FFC77 /* Colors.xcassets */,
 				D7163D3F2C6BB63C002FFC77 /* Preview Content */,
@@ -207,6 +210,7 @@
 				D7163D3C2C6BB63B002FFC77 /* ContentView.swift in Sources */,
 				D7163D3A2C6BB63B002FFC77 /* SwiftUI_MasteryApp.swift in Sources */,
 				D7163D4A2C6BC073002FFC77 /* ShapePractice.swift in Sources */,
+				D781698A2C6F9AB4008924F1 /* ConditionalPractice.swift in Sources */,
 				D78169802C6F4FD9008924F1 /* ButtonsPractice.swift in Sources */,
 				D7E12F342C6CF9D600B132F5 /* Padding_SpacerPractice.swift in Sources */,
 				D7B14E632C6CCF12009ADE46 /* ImagePractice.swift in Sources */,

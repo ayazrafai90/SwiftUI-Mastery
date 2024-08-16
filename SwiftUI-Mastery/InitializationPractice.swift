@@ -76,4 +76,19 @@ enum Fruit {
             return "Guava"
         }
     }
+    
+    var emoji: String {
+        switch self {
+        case .apples:
+            return "🍎"
+        case .banana:
+            return "🍌"
+        case .oranges:
+            return "🍊"
+        case .strawberry:
+            return "🍓"
+        case .guava:
+            return "🥑"
+        }
+    }
 }
