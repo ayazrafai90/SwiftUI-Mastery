@@ -17,6 +17,7 @@
 		D7163D4E2C6BC59C002FFC77 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7163D4D2C6BC59C002FFC77 /* Colors.xcassets */; };
 		D7163D502C6BC702002FFC77 /* GradientPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7163D4F2C6BC702002FFC77 /* GradientPractice.swift */; };
 		D7163D522C6BCB9D002FFC77 /* IconsPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7163D512C6BCB9D002FFC77 /* IconsPractice.swift */; };
+		D74838E42C70B2FD00096BF5 /* AnimationTimingPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74838E32C70B2FD00096BF5 /* AnimationTimingPractice.swift */; };
 		D74CCB812C6D105200D37505 /* ForEach_LoopPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74CCB802C6D105200D37505 /* ForEach_LoopPractice.swift */; };
 		D74CCB832C6D151B00D37505 /* ScrollViewPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74CCB822C6D151B00D37505 /* ScrollViewPractice.swift */; };
 		D754ECCE2C6E567A006634CE /* GridPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D754ECCD2C6E567A006634CE /* GridPractice.swift */; };
@@ -48,6 +49,7 @@
 		D7163D4D2C6BC59C002FFC77 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		D7163D4F2C6BC702002FFC77 /* GradientPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientPractice.swift; sourceTree = "<group>"; };
 		D7163D512C6BCB9D002FFC77 /* IconsPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsPractice.swift; sourceTree = "<group>"; };
+		D74838E32C70B2FD00096BF5 /* AnimationTimingPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTimingPractice.swift; sourceTree = "<group>"; };
 		D74CCB802C6D105200D37505 /* ForEach_LoopPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEach_LoopPractice.swift; sourceTree = "<group>"; };
 		D74CCB822C6D151B00D37505 /* ScrollViewPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewPractice.swift; sourceTree = "<group>"; };
 		D754ECCD2C6E567A006634CE /* GridPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridPractice.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				D78169872C6F96C9008924F1 /* BindingPractice.swift */,
 				D78169892C6F9AB4008924F1 /* ConditionalPractice.swift */,
 				D781698B2C6FB2BF008924F1 /* AnimationPractice.swift */,
+				D74838E32C70B2FD00096BF5 /* AnimationTimingPractice.swift */,
 				D7163D3D2C6BB63C002FFC77 /* Assets.xcassets */,
 				D7163D4D2C6BC59C002FFC77 /* Colors.xcassets */,
 				D7163D3F2C6BB63C002FFC77 /* Preview Content */,
@@ -227,6 +230,7 @@
 				D78169842C6F8BD0008924F1 /* ExtractedFunctionsPractice.swift in Sources */,
 				D74CCB812C6D105200D37505 /* ForEach_LoopPractice.swift in Sources */,
 				D7163D482C6BBD0C002FFC77 /* TextPractice.swift in Sources */,
+				D74838E42C70B2FD00096BF5 /* AnimationTimingPractice.swift in Sources */,
 				D78169862C6F90F6008924F1 /* ExtractSubViewsPractice.swift in Sources */,
 				D754ECD02C6E657E006634CE /* SafeAreaPractice.swift in Sources */,
 				D754ECCE2C6E567A006634CE /* GridPractice.swift in Sources */,

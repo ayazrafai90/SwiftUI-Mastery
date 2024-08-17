@@ -58,6 +58,7 @@ struct CustomView: View {
 struct TitleView: View {
     let description: String
     let color: Color
+    let descriptionColor: Color = .gray
     
     var body: some View {
         VStack(spacing: 12) {
@@ -69,7 +70,7 @@ struct TitleView: View {
             
             Text(description)
                 .font(.system(size: 18))
-                .foregroundColor(color.opacity(0.5))
+                .foregroundColor(descriptionColor)
         }
         .multilineTextAlignment(.center)
     }
