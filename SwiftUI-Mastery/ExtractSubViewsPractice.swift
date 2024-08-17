@@ -58,7 +58,13 @@ struct CustomView: View {
 struct TitleView: View {
     let description: String
     let color: Color
-    let descriptionColor: Color = .gray
+    let descriptionColor: Color
+    
+    init(description: String, color: Color, descriptionColor: Color = .gray) {
+        self.description = description
+        self.color = color
+        self.descriptionColor = descriptionColor
+    }
     
     var body: some View {
         VStack(spacing: 12) {
@@ -66,7 +72,7 @@ struct TitleView: View {
                 .bold()
                 .font(.title)
                 .foregroundColor(color)
-                .shadow(color: color, radius: 8, x: 5, y: 5)
+                .shadow(color: color, radius: 5, x: 0, y: 3)
             
             Text(description)
                 .font(.system(size: 18))
