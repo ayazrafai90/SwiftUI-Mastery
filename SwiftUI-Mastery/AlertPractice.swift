@@ -15,73 +15,72 @@ struct AlertPractice: View {
     var body: some View {
         ZStack {
             Color.customPink.ignoresSafeArea()
-            
-            VStack {
-                TitleView(description: "Explore basic integration for the alert view", color: .white, descriptionColor: .white.opacity(0.5))
-                Spacer()
-                
-                
+            ScrollView {
                 VStack {
-                    HStack {
-                        Image(systemName: "person.fill")
-                            .foregroundStyle(.black)
-                            .frame(width: 34, height: 34)
-                            .background(Circle().fill(.gray))
-                        Text("Ayaz Rafai")
-                        Spacer()
-                        
-                        Button {
-                            showAlert = true
-                        } label: {
-                            Image(systemName: "ellipsis")
-                                .resizable()
-                                .scaledToFit()
-                                .padding(.horizontal, 4)
+                    VStack {
+                        HStack {
+                            Image(systemName: "person.fill")
+                                .foregroundStyle(.black)
                                 .frame(width: 34, height: 34)
-                                .foregroundStyle(.customPink)
+                                .background(Circle().fill(.gray))
+                            Text("Ayaz Rafai")
+                            Spacer()
+                            
+                            Button {
+                                showAlert = true
+                            } label: {
+                                Image(systemName: "ellipsis")
+                                    .resizable()
+                                    .scaledToFit()
+                                    .padding(.horizontal, 4)
+                                    .frame(width: 34, height: 34)
+                                    .foregroundStyle(.customPink)
+                            }
+                            .frame(width: 34, height: 34)
+                        }.foregroundStyle(.black)
+                            .zIndex(1)
+                        TitleView(description: "Explore basic integration for the alert view", color: .customPink)
+                        Image("steve")
+                            .resizable()
+                            .scaledToFill()
+                            .frame(height: 200)
+                            .frame(maxWidth: .infinity)
+                            .clipped()
+                            .clipShape(RoundedRectangle(cornerRadius: 8.0))
+                    }
+                    .padding()
+                    .background(.white)
+                    HStack {
+                        Button("Show alert") {
+                            showAlert.toggle()
                         }
-                        .frame(width: 34, height: 34)
-                    }.foregroundStyle(.black)
-                        .zIndex(1)
-                    Image("steve")
-                        .resizable()
-                        .scaledToFill()
-                        .frame(height: 200)
-                        .frame(maxWidth: .infinity)
-                        .clipped()
-                        .clipShape(RoundedRectangle(cornerRadius: 8.0))
-                }
-                .padding()
-                .background(.white)
-                VStack {
-                    Button("Show alert") {
-                        showAlert.toggle()
+                        .frame(height: 60)
+                        .padding(.horizontal, 22)
+                        .background(RoundedRectangle(cornerRadius: 8).fill(.white))
+                        .tint(.customSky)
+                        
+                        Button("Show Sheet") {
+                            showActionSheet.toggle()
+                        }
+                        .frame(height: 60)
+                        .padding(.horizontal, 22)
+                        .background(RoundedRectangle(cornerRadius: 8).fill(.white))
+                        .tint(.customPink)
                     }
-                    .frame(height: 60)
-                    .padding(.horizontal, 22)
-                    .background(RoundedRectangle(cornerRadius: 8).fill(.white))
                     
-                    
-                    Button("Show Sheet") {
-                        showActionSheet.toggle()
-                    }
-                    .frame(height: 60)
-                    .padding(.horizontal, 22)
-                    .background(RoundedRectangle(cornerRadius: 8).fill(.white))
+                    .font(.headline)
+                    .shadow(color: .white, radius: 5, x: 0, y: 0)
+                    Spacer()
                 }
-                .tint(.customPink)
-                .font(.headline)
-                .shadow(color: .white, radius: 5, x: 0, y: 0)
-                Spacer()
+                .alert(isPresented: $showAlert, content: {
+                    getAlert(title: "SwiftUI-Mastery",
+                             message: "Are you sure you want to delete?")
+                })
+                .actionSheet(isPresented: $showActionSheet, content: {
+                    getActionSheet(title: "SwiftUI-Mastery",
+                                   message: "Are you sure you want to remove?")
+                })
             }
-            .alert(isPresented: $showAlert, content: {
-                getAlert(title: "SwiftUI-Mastery",
-                         message: "Are you sure you want to delete?")
-            })
-            .actionSheet(isPresented: $showActionSheet, content: {
-                getActionSheet(title: "SwiftUI-Mastery",
-                               message: "Are you sure you want to remove?")
-            })
         }
     }
     
