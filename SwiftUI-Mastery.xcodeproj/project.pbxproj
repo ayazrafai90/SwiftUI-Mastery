@@ -25,6 +25,7 @@
 		D74838EE2C70F92400096BF5 /* ListPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74838ED2C70F92400096BF5 /* ListPractice.swift */; };
 		D74CCB812C6D105200D37505 /* ForEach_LoopPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74CCB802C6D105200D37505 /* ForEach_LoopPractice.swift */; };
 		D74CCB832C6D151B00D37505 /* ScrollViewPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74CCB822C6D151B00D37505 /* ScrollViewPractice.swift */; };
+		D74F92CD2C72508900F80401 /* AlertPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74F92CC2C72508900F80401 /* AlertPractice.swift */; };
 		D754ECCE2C6E567A006634CE /* GridPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D754ECCD2C6E567A006634CE /* GridPractice.swift */; };
 		D754ECD02C6E657E006634CE /* SafeAreaPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D754ECCF2C6E657E006634CE /* SafeAreaPractice.swift */; };
 		D78169802C6F4FD9008924F1 /* ButtonsPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D781697F2C6F4FD9008924F1 /* ButtonsPractice.swift */; };
@@ -62,6 +63,7 @@
 		D74838ED2C70F92400096BF5 /* ListPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPractice.swift; sourceTree = "<group>"; };
 		D74CCB802C6D105200D37505 /* ForEach_LoopPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEach_LoopPractice.swift; sourceTree = "<group>"; };
 		D74CCB822C6D151B00D37505 /* ScrollViewPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewPractice.swift; sourceTree = "<group>"; };
+		D74F92CC2C72508900F80401 /* AlertPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPractice.swift; sourceTree = "<group>"; };
 		D754ECCD2C6E567A006634CE /* GridPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridPractice.swift; sourceTree = "<group>"; };
 		D754ECCF2C6E657E006634CE /* SafeAreaPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaPractice.swift; sourceTree = "<group>"; usesTabs = 0; };
 		D781697F2C6F4FD9008924F1 /* ButtonsPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsPractice.swift; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				D74838E92C70DDEA00096BF5 /* PopoverPractice.swift */,
 				D74838EB2C70E74B00096BF5 /* NavigationViewPractice.swift */,
 				D74838ED2C70F92400096BF5 /* ListPractice.swift */,
+				D74F92CC2C72508900F80401 /* AlertPractice.swift */,
 				D7163D3D2C6BB63C002FFC77 /* Assets.xcassets */,
 				D7163D4D2C6BC59C002FFC77 /* Colors.xcassets */,
 				D7163D3F2C6BB63C002FFC77 /* Preview Content */,
@@ -225,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D74F92CD2C72508900F80401 /* AlertPractice.swift in Sources */,
 				D7163D502C6BC702002FFC77 /* GradientPractice.swift in Sources */,
 				D7E12F302C6CE24200B132F5 /* Background_AND_OverlayPractice.swift in Sources */,
 				D7B14E652C6CD311009ADE46 /* FramePractice.swift in Sources */,
