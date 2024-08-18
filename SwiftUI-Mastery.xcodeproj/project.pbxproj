@@ -22,6 +22,7 @@
 		D74838E82C70C74D00096BF5 /* SheetsPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74838E72C70C74D00096BF5 /* SheetsPractice.swift */; };
 		D74838EA2C70DDEA00096BF5 /* PopoverPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74838E92C70DDEA00096BF5 /* PopoverPractice.swift */; };
 		D74838EC2C70E74B00096BF5 /* NavigationViewPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74838EB2C70E74B00096BF5 /* NavigationViewPractice.swift */; };
+		D74838EE2C70F92400096BF5 /* ListPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74838ED2C70F92400096BF5 /* ListPractice.swift */; };
 		D74CCB812C6D105200D37505 /* ForEach_LoopPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74CCB802C6D105200D37505 /* ForEach_LoopPractice.swift */; };
 		D74CCB832C6D151B00D37505 /* ScrollViewPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74CCB822C6D151B00D37505 /* ScrollViewPractice.swift */; };
 		D754ECCE2C6E567A006634CE /* GridPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D754ECCD2C6E567A006634CE /* GridPractice.swift */; };
@@ -58,6 +59,7 @@
 		D74838E72C70C74D00096BF5 /* SheetsPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetsPractice.swift; sourceTree = "<group>"; };
 		D74838E92C70DDEA00096BF5 /* PopoverPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverPractice.swift; sourceTree = "<group>"; };
 		D74838EB2C70E74B00096BF5 /* NavigationViewPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewPractice.swift; sourceTree = "<group>"; };
+		D74838ED2C70F92400096BF5 /* ListPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPractice.swift; sourceTree = "<group>"; };
 		D74CCB802C6D105200D37505 /* ForEach_LoopPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEach_LoopPractice.swift; sourceTree = "<group>"; };
 		D74CCB822C6D151B00D37505 /* ScrollViewPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewPractice.swift; sourceTree = "<group>"; };
 		D754ECCD2C6E567A006634CE /* GridPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridPractice.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				D74838E72C70C74D00096BF5 /* SheetsPractice.swift */,
 				D74838E92C70DDEA00096BF5 /* PopoverPractice.swift */,
 				D74838EB2C70E74B00096BF5 /* NavigationViewPractice.swift */,
+				D74838ED2C70F92400096BF5 /* ListPractice.swift */,
 				D7163D3D2C6BB63C002FFC77 /* Assets.xcassets */,
 				D7163D4D2C6BC59C002FFC77 /* Colors.xcassets */,
 				D7163D3F2C6BB63C002FFC77 /* Preview Content */,
@@ -234,6 +237,7 @@
 				D781698A2C6F9AB4008924F1 /* ConditionalPractice.swift in Sources */,
 				D78169802C6F4FD9008924F1 /* ButtonsPractice.swift in Sources */,
 				D7E12F342C6CF9D600B132F5 /* Padding_SpacerPractice.swift in Sources */,
+				D74838EE2C70F92400096BF5 /* ListPractice.swift in Sources */,
 				D7B14E632C6CCF12009ADE46 /* ImagePractice.swift in Sources */,
 				D74CCB832C6D151B00D37505 /* ScrollViewPractice.swift in Sources */,
 				D78169822C6F8882008924F1 /* StatePractice.swift in Sources */,
