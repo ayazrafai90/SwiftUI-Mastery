@@ -35,6 +35,7 @@
 		D754ECD02C6E657E006634CE /* SafeAreaPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D754ECCF2C6E657E006634CE /* SafeAreaPractice.swift */; };
 		D76001D02C96EA9D0079E00B /* ViewModifiersPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76001CF2C96EA9D0079E00B /* ViewModifiersPractice.swift */; };
 		D76001D22C96EE700079E00B /* ButtonStylePractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76001D12C96EE700079E00B /* ButtonStylePractice.swift */; };
+		D76001D42C96F2A80079E00B /* MatchedGeometryPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76001D32C96F2A80079E00B /* MatchedGeometryPractice.swift */; };
 		D78169802C6F4FD9008924F1 /* ButtonsPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D781697F2C6F4FD9008924F1 /* ButtonsPractice.swift */; };
 		D78169822C6F8882008924F1 /* StatePractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78169812C6F8882008924F1 /* StatePractice.swift */; };
 		D78169842C6F8BD0008924F1 /* ExtractedFunctionsPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78169832C6F8BD0008924F1 /* ExtractedFunctionsPractice.swift */; };
@@ -82,6 +83,7 @@
 		D754ECCF2C6E657E006634CE /* SafeAreaPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaPractice.swift; sourceTree = "<group>"; usesTabs = 0; };
 		D76001CF2C96EA9D0079E00B /* ViewModifiersPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiersPractice.swift; sourceTree = "<group>"; };
 		D76001D12C96EE700079E00B /* ButtonStylePractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStylePractice.swift; sourceTree = "<group>"; };
+		D76001D32C96F2A80079E00B /* MatchedGeometryPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryPractice.swift; sourceTree = "<group>"; };
 		D781697F2C6F4FD9008924F1 /* ButtonsPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsPractice.swift; sourceTree = "<group>"; };
 		D78169812C6F8882008924F1 /* StatePractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePractice.swift; sourceTree = "<group>"; };
 		D78169832C6F8BD0008924F1 /* ExtractedFunctionsPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedFunctionsPractice.swift; sourceTree = "<group>"; };
@@ -196,6 +198,7 @@
 			children = (
 				D76001CF2C96EA9D0079E00B /* ViewModifiersPractice.swift */,
 				D76001D12C96EE700079E00B /* ButtonStylePractice.swift */,
+				D76001D32C96F2A80079E00B /* MatchedGeometryPractice.swift */,
 			);
 			path = Advanced;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 				D78169802C6F4FD9008924F1 /* ButtonsPractice.swift in Sources */,
 				D7E12F342C6CF9D600B132F5 /* Padding_SpacerPractice.swift in Sources */,
 				D7161CD02C77AF580015200D /* DatePickerPractice.swift in Sources */,
+				D76001D42C96F2A80079E00B /* MatchedGeometryPractice.swift in Sources */,
 				D74838EE2C70F92400096BF5 /* ListPractice.swift in Sources */,
 				D7B14E632C6CCF12009ADE46 /* ImagePractice.swift in Sources */,
 				D74CCB832C6D151B00D37505 /* ScrollViewPractice.swift in Sources */,
