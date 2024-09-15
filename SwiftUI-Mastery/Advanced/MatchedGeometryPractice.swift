@@ -49,33 +49,41 @@ struct CustomSegmentTabView: View {
     @State private var selectedTab: String = ""
     @Namespace private var selectionNamespace
     var body: some View {
-        HStack {
-            ForEach(tabs, id: \.self) { tab in
-                ZStack {
-                    if tab == selectedTab {
-                        VStack {
-                            Capsule().fill(.cyan)
-                                .shadow(color: .cyan.opacity(0.1), radius: 5, y: 5)
-                                .frame(width: 20, height: 4)
+        VStack {
+            HStack {
+                ForEach(tabs, id: \.self) { tab in
+                    ZStack {
+                        if tab == selectedTab {
+                            VStack {
+                                Capsule().fill(.cyan)
+                                    .shadow(color: .cyan.opacity(0.1), radius: 5, y: 5)
+                                    .frame(width: 20, height: 4)
+                            }
+                            .matchedGeometryEffect(id: "selected_tab", in: selectionNamespace)
+                            .offset(y: 20)
                         }
-                        .matchedGeometryEffect(id: "selected_tab", in: selectionNamespace)
-                        .offset(y: 20)
+                        
+                        Text(tab)
+                            .foregroundStyle(tab == selectedTab ? .cyan : .gray)
+                            .font(.system(size: tab == selectedTab ? 16 : 14, weight: .bold))
                     }
-                    
-                    Text(tab)
-                        .foregroundStyle(tab == selectedTab ? .cyan : .gray)
-                        .font(.system(size: tab == selectedTab ? 16 : 14, weight: .bold))
-                }
-                .frame(maxWidth: .infinity)
-                .frame(height: 50)
-                .onTapGesture {
-                    withAnimation(.linear(duration: 0.1)) {
-                        selectedTab = tab
+                    .frame(maxWidth: .infinity)
+                    .frame(height: 50)
+                    .onTapGesture {
+                        withAnimation(.linear(duration: 0.1)) {
+                            selectedTab = tab
+                        }
                     }
                 }
             }
+            .padding()
+            LinearGradient(colors: [.cyan, .blue], startPoint: .topLeading, endPoint: .bottomTrailing)
+                .overlay {
+                    Text(selectedTab)
+                        .foregroundStyle(.white)
+                        .font(.title)
+                }
+                .ignoresSafeArea()
         }
-        .padding()
-        Spacer()
     }
 }
