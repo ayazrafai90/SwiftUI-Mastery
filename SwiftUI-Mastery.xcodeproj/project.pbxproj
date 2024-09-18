@@ -25,6 +25,7 @@
 		D7381F402C9AD9F500453DB9 /* AnyTransitionPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7381F3F2C9AD9F500453DB9 /* AnyTransitionPractice.swift */; };
 		D7381F422C9AE06400453DB9 /* CustomShapesPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7381F412C9AE06400453DB9 /* CustomShapesPractice.swift */; };
 		D7381F442C9AE41800453DB9 /* CustomCurvesPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7381F432C9AE41800453DB9 /* CustomCurvesPractice.swift */; };
+		D7381F462C9AFC7B00453DB9 /* ShapeAnimationPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7381F452C9AFC7B00453DB9 /* ShapeAnimationPractice.swift */; };
 		D74838E42C70B2FD00096BF5 /* AnimationTimingPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74838E32C70B2FD00096BF5 /* AnimationTimingPractice.swift */; };
 		D74838E62C70B79900096BF5 /* TransitionsPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74838E52C70B79900096BF5 /* TransitionsPractice.swift */; };
 		D74838E82C70C74D00096BF5 /* SheetsPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74838E72C70C74D00096BF5 /* SheetsPractice.swift */; };
@@ -76,6 +77,7 @@
 		D7381F3F2C9AD9F500453DB9 /* AnyTransitionPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyTransitionPractice.swift; sourceTree = "<group>"; };
 		D7381F412C9AE06400453DB9 /* CustomShapesPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapesPractice.swift; sourceTree = "<group>"; };
 		D7381F432C9AE41800453DB9 /* CustomCurvesPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCurvesPractice.swift; sourceTree = "<group>"; };
+		D7381F452C9AFC7B00453DB9 /* ShapeAnimationPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeAnimationPractice.swift; sourceTree = "<group>"; };
 		D74838E32C70B2FD00096BF5 /* AnimationTimingPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTimingPractice.swift; sourceTree = "<group>"; };
 		D74838E52C70B79900096BF5 /* TransitionsPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionsPractice.swift; sourceTree = "<group>"; };
 		D74838E72C70C74D00096BF5 /* SheetsPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetsPractice.swift; sourceTree = "<group>"; };
@@ -208,6 +210,7 @@
 				D76001D32C96F2A80079E00B /* MatchedGeometryPractice.swift */,
 				D7381F412C9AE06400453DB9 /* CustomShapesPractice.swift */,
 				D7381F432C9AE41800453DB9 /* CustomCurvesPractice.swift */,
+				D7381F452C9AFC7B00453DB9 /* ShapeAnimationPractice.swift */,
 			);
 			path = Advanced;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7A3DF1A2C763931003AC38A /* ContextPractice.swift in Sources */,
+				D7381F462C9AFC7B00453DB9 /* ShapeAnimationPractice.swift in Sources */,
 				D74F92CD2C72508900F80401 /* AlertPractice.swift in Sources */,
 				D7161CCC2C77A88F0015200D /* PickerPractice.swift in Sources */,
 				D7163D502C6BC702002FFC77 /* GradientPractice.swift in Sources */,
