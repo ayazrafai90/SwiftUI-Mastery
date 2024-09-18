@@ -24,6 +24,7 @@
 		D7163D522C6BCB9D002FFC77 /* IconsPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7163D512C6BCB9D002FFC77 /* IconsPractice.swift */; };
 		D7381F402C9AD9F500453DB9 /* AnyTransitionPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7381F3F2C9AD9F500453DB9 /* AnyTransitionPractice.swift */; };
 		D7381F422C9AE06400453DB9 /* CustomShapesPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7381F412C9AE06400453DB9 /* CustomShapesPractice.swift */; };
+		D7381F442C9AE41800453DB9 /* CustomCurvesPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7381F432C9AE41800453DB9 /* CustomCurvesPractice.swift */; };
 		D74838E42C70B2FD00096BF5 /* AnimationTimingPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74838E32C70B2FD00096BF5 /* AnimationTimingPractice.swift */; };
 		D74838E62C70B79900096BF5 /* TransitionsPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74838E52C70B79900096BF5 /* TransitionsPractice.swift */; };
 		D74838E82C70C74D00096BF5 /* SheetsPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74838E72C70C74D00096BF5 /* SheetsPractice.swift */; };
@@ -74,6 +75,7 @@
 		D7163D512C6BCB9D002FFC77 /* IconsPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsPractice.swift; sourceTree = "<group>"; };
 		D7381F3F2C9AD9F500453DB9 /* AnyTransitionPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyTransitionPractice.swift; sourceTree = "<group>"; };
 		D7381F412C9AE06400453DB9 /* CustomShapesPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapesPractice.swift; sourceTree = "<group>"; };
+		D7381F432C9AE41800453DB9 /* CustomCurvesPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCurvesPractice.swift; sourceTree = "<group>"; };
 		D74838E32C70B2FD00096BF5 /* AnimationTimingPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTimingPractice.swift; sourceTree = "<group>"; };
 		D74838E52C70B79900096BF5 /* TransitionsPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionsPractice.swift; sourceTree = "<group>"; };
 		D74838E72C70C74D00096BF5 /* SheetsPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetsPractice.swift; sourceTree = "<group>"; };
@@ -205,6 +207,7 @@
 				D7381F3F2C9AD9F500453DB9 /* AnyTransitionPractice.swift */,
 				D76001D32C96F2A80079E00B /* MatchedGeometryPractice.swift */,
 				D7381F412C9AE06400453DB9 /* CustomShapesPractice.swift */,
+				D7381F432C9AE41800453DB9 /* CustomCurvesPractice.swift */,
 			);
 			path = Advanced;
 			sourceTree = "<group>";
@@ -319,6 +322,7 @@
 				D74838E42C70B2FD00096BF5 /* AnimationTimingPractice.swift in Sources */,
 				D78169862C6F90F6008924F1 /* ExtractSubViewsPractice.swift in Sources */,
 				D754ECD02C6E657E006634CE /* SafeAreaPractice.swift in Sources */,
+				D7381F442C9AE41800453DB9 /* CustomCurvesPractice.swift in Sources */,
 				D76001D22C96EE700079E00B /* ButtonStylePractice.swift in Sources */,
 				D74838E62C70B79900096BF5 /* TransitionsPractice.swift in Sources */,
 				D754ECCE2C6E567A006634CE /* GridPractice.swift in Sources */,
