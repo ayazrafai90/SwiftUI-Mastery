@@ -8,6 +8,32 @@
 import SwiftUI
 
 struct TabViewPractice: View {
+    @State var selectedTab: Int = 0
+    
+    var body: some View {
+        let width = UIScreen.main.bounds.width - 16
+        TabView(selection: $selectedTab) {
+            
+            RoundedRectangle(cornerRadius: 16)
+                .fill(.red)
+                .frame(width: width, height: 160)
+                .tag(0)
+            RoundedRectangle(cornerRadius: 16)
+                .fill(.blue)
+                .frame(width: width, height: 160)
+                .tag(1)
+            RoundedRectangle(cornerRadius: 16)
+                .fill(.green)
+                .frame(width: width, height: 160)
+                .tag(2)
+        }
+        .tint(.blue)
+        .tabViewStyle(.page)
+        .frame(height: 160)
+    }
+}
+
+struct TabViewPractice1: View {
     
     @State var selectedTab: Int = 0
     
@@ -26,7 +52,6 @@ struct TabViewPractice: View {
                 .tag(2)
         }
         .tint(.blue)
-        .toolbarBackground(.hidden, for: .bottomBar)
     }
 }
 
