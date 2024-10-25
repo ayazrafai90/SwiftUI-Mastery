@@ -47,6 +47,7 @@
 		D78169882C6F96C9008924F1 /* BindingPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78169872C6F96C9008924F1 /* BindingPractice.swift */; };
 		D781698A2C6F9AB4008924F1 /* ConditionalPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78169892C6F9AB4008924F1 /* ConditionalPractice.swift */; };
 		D781698C2C6FB2BF008924F1 /* AnimationPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D781698B2C6FB2BF008924F1 /* AnimationPractice.swift */; };
+		D7A2C7CC2CCBD40500324EB7 /* SliderPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A2C7CB2CCBD40500324EB7 /* SliderPractice.swift */; };
 		D7A3DF1A2C763931003AC38A /* ContextPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A3DF192C763931003AC38A /* ContextPractice.swift */; };
 		D7A3DF1C2C764E80003AC38A /* TextFieldPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A3DF1B2C764E80003AC38A /* TextFieldPractice.swift */; };
 		D7B14E632C6CCF12009ADE46 /* ImagePractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B14E622C6CCF12009ADE46 /* ImagePractice.swift */; };
@@ -99,6 +100,7 @@
 		D78169872C6F96C9008924F1 /* BindingPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingPractice.swift; sourceTree = "<group>"; };
 		D78169892C6F9AB4008924F1 /* ConditionalPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalPractice.swift; sourceTree = "<group>"; };
 		D781698B2C6FB2BF008924F1 /* AnimationPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationPractice.swift; sourceTree = "<group>"; };
+		D7A2C7CB2CCBD40500324EB7 /* SliderPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderPractice.swift; sourceTree = "<group>"; };
 		D7A3DF192C763931003AC38A /* ContextPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextPractice.swift; sourceTree = "<group>"; };
 		D7A3DF1B2C764E80003AC38A /* TextFieldPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldPractice.swift; sourceTree = "<group>"; };
 		D7B14E622C6CCF12009ADE46 /* ImagePractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePractice.swift; sourceTree = "<group>"; };
@@ -197,6 +199,7 @@
 				D7161CCD2C77AE5D0015200D /* ColorPickerPractice.swift */,
 				D7161CCF2C77AF580015200D /* DatePickerPractice.swift */,
 				D7161CD12C77B2960015200D /* StepperPractice.swift */,
+				D7A2C7CB2CCBD40500324EB7 /* SliderPractice.swift */,
 			);
 			path = Basic;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				D7163D3A2C6BB63B002FFC77 /* SwiftUI_MasteryApp.swift in Sources */,
 				D781698C2C6FB2BF008924F1 /* AnimationPractice.swift in Sources */,
 				D7161CCA2C77A6B40015200D /* TogglePractice.swift in Sources */,
+				D7A2C7CC2CCBD40500324EB7 /* SliderPractice.swift in Sources */,
 				D7161CD22C77B2960015200D /* StepperPractice.swift in Sources */,
 				D74838EC2C70E74B00096BF5 /* NavigationViewPractice.swift in Sources */,
 				D76001D02C96EA9D0079E00B /* ViewModifiersPractice.swift in Sources */,

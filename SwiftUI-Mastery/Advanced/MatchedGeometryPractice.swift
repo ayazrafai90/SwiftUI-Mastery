@@ -57,7 +57,8 @@ struct CustomSegmentTabView: View {
                             VStack {
                                 Capsule().fill(.cyan)
                                     .shadow(color: .cyan.opacity(0.1), radius: 5, y: 5)
-                                    .frame(width: 20, height: 4)
+                                    .frame(height: 4)
+                                    .frame(maxWidth: .infinity)
                             }
                             .matchedGeometryEffect(id: "selected_tab", in: selectionNamespace)
                             .offset(y: 20)

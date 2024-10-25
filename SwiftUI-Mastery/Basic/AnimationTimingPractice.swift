@@ -33,21 +33,21 @@ struct AnimationTimingPractice: View {
                                        blendDuration: 1.0),
                                value: shouldAnimate)
                 
-//                RoundedRectangle(cornerRadius: 16)
-//                    .frame(width: shouldAnimate ? .infinity : 60, height: 100)
-//                    .animation(.easeIn(duration: timing), value: shouldAnimate)
-//                
-//                RoundedRectangle(cornerRadius: 16)
-//                    .frame(width: shouldAnimate ? .infinity : 60, height: 100)
-//                    .animation(.easeInOut(duration: timing), value: shouldAnimate)
-//                
-//                RoundedRectangle(cornerRadius: 16)
-//                    .frame(width: shouldAnimate ? .infinity : 60, height: 100)
-//                    .animation(.easeOut(duration: timing), value: shouldAnimate)
-//                
-//                RoundedRectangle(cornerRadius: 16)
-//                    .frame(width: shouldAnimate ? .infinity : 60, height: 100)
-//                    .animation(.linear(duration: timing), value: shouldAnimate)
+                RoundedRectangle(cornerRadius: 16)
+                    .frame(width: shouldAnimate ? .infinity : 60, height: 100)
+                    .animation(.easeIn(duration: timing), value: shouldAnimate)
+                
+                RoundedRectangle(cornerRadius: 16)
+                    .frame(width: shouldAnimate ? .infinity : 60, height: 100)
+                    .animation(.easeInOut(duration: timing), value: shouldAnimate)
+                
+                RoundedRectangle(cornerRadius: 16)
+                    .frame(width: shouldAnimate ? .infinity : 60, height: 100)
+                    .animation(.easeOut(duration: timing), value: shouldAnimate)
+                
+                RoundedRectangle(cornerRadius: 16)
+                    .frame(width: shouldAnimate ? .infinity : 60, height: 100)
+                    .animation(.linear(duration: timing), value: shouldAnimate)
             }
             .padding(.horizontal, 16)
             
